@@ -58,7 +58,7 @@ main div{
     cursor: pointer;
     width: 7rem;
     border: none;
-    background-color: hsl(263, 74%, 70%);
+    background-color: hsl(263, 81%, 73%);
 }
 
 @media screen and (max-width: 375px){
