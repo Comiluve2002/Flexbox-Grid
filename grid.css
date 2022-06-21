@@ -64,7 +64,7 @@ main div{
 @media screen and (max-width: 375px){
     
     body{
-        background-color: rgb(250, 232, 204);
+        background-color: rgb(253, 235, 206);
     }
     main{
         grid-template-areas: 
