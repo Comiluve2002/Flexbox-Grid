@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+    padding-top: 15px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0 0 90px;
+}
+
+section{
+    margin: 10px 0;  
+}
+
+.container{
+    position: relative;
+}
+.boxes .container{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.box{
+    padding: 20px;
+    width: 180px;
+    margin: 20px 0;
+}
+
+.first-box{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.second-box{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-box{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+/*buttons*/
+.grid{
+    padding: 25px;
+}
+
+.grid-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.grid-btn{
+    font-weight: bold;
+    height: 2.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 7rem;
+    border: none;
+    background-color: hsl(40, 91%, 66%);
+    color: #fff;
+}
+.btn{
+    font-weight: bold;
+    height: 2.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 7rem;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    position: absolute;
+    bottom: 50px;
+}
+.btn1 {
+    color: hsl(31, 77%, 52%); 
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px){
+
+    .boxes .container{
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+
+    .container{
+        position: none;
+    }
+
+    .btn{
+        position: initial;
+    }
+    p{
+        padding: 0 0 40px;
+    }
+
+}
